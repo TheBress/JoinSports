@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events_calendars",
+  "info": {
+    "name": "EventsCalendar",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "color": {
+      "type": "string"
+    },
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "user": {
+      "via": "events_calendars",
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

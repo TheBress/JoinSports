@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/events-calendars",
+      "handler": "events-calendar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/events-calendars/count",
+      "handler": "events-calendar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/events-calendars/:id",
+      "handler": "events-calendar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/events-calendars",
+      "handler": "events-calendar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/events-calendars/:id",
+      "handler": "events-calendar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/events-calendars/:id",
+      "handler": "events-calendar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

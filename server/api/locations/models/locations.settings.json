@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "name": "Locations",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Direction": {
+      "type": "string"
+    },
+    "ads": {
+      "via": "location",
+      "collection": "ads"
+    }
+  }
+}

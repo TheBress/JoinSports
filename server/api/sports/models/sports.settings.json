@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sports",
+  "info": {
+    "name": "Sports",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "users": {
+      "via": "favoriteSports",
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "ads": {
+      "via": "sport",
+      "collection": "ads"
+    }
+  }
+}

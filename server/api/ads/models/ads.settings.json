@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ads",
+  "info": {
+    "name": "Ads",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "user": {
+      "via": "ads",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "sport": {
+      "via": "ads",
+      "model": "sports"
+    },
+    "Date": {
+      "type": "string"
+    },
+    "location": {
+      "via": "ads",
+      "model": "locations"
+    },
+    "image": {
+      "type": "string"
+    },
+    "views": {
+      "type": "integer",
+      "default": 0
+    },
+    "requests": {
+      "via": "ad",
+      "collection": "requests"
+    },
+    "notifications": {
+      "via": "ad",
+      "collection": "notifications"
+    }
+  }
+}

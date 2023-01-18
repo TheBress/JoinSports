@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "requests",
+  "info": {
+    "name": "Requests",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ad": {
+      "model": "ads",
+      "via": "requests"
+    },
+    "user": {
+      "via": "requests",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "isAccepted": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

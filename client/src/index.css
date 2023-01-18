@@ -1,0 +1,345 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.error {
+  position: relative;
+  color: red;
+  font-size: 18px;
+  top: -2%;
+}
+
+.errorRegister {
+  position: relative;
+  color: red;
+  font-size: 18px;
+  top: -2%;
+}
+
+.errorComplete {
+  position: relative;
+  color: red;
+  font-size: 18px;
+}
+
+.errora {
+  color: red;
+  position: absolute;
+  font-size: 70px;
+}
+
+.loginButton {
+  width: 250px;
+  color: white;
+  border: none;
+  background-color: rgb(192, 15, 15);
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.loginButton:hover {
+  background-color: rgb(224, 14, 14);
+  transition: 0.3s;
+}
+
+.input {
+  width: 320px;
+  padding: 7px 0px 7px 26px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(214, 208, 208);
+}
+
+.input:focus {
+  background-color: white;
+  outline: none;
+}
+
+.fondo {
+  background-image: url("https://wallpaper.dog/large/10716235.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.login {
+  position: relative;
+  font-size: 29px;
+  top: -9%;
+}
+
+.showPassword {
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.formControl {
+  position: relative;
+  top: -10%;
+}
+
+.iconLeft {
+  color: black;
+}
+
+.registrarse {
+  color: white;
+}
+
+.nuevaCuenta {
+  position: relative;
+  top: -5%;
+  font-size: 18px;
+}
+
+.descriptionLogin {
+  position: relative;
+  top: -12%;
+  font-size: 16px;
+}
+
+.descriptionRegister {
+  position: relative;
+  top: -12%;
+  font-size: 18px;
+}
+
+.descriptionPassword {
+  position: relative;
+  top: -12%;
+  font-size: 16px;
+}
+
+.iconUser {
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.forgotPassword {
+  position: relative;
+  color: white;
+  font-size: 14px;
+  top: -16%;
+  left: 53%;
+}
+
+.logo {
+  position: absolute;
+  top: -11%;
+}
+
+.blackWall {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.link {
+  text-decoration: underline white;
+}
+
+.link2 {
+  text-decoration: underline black;
+}
+
+.file {
+  background-color: #d6d0d0;
+  border: 4px dashed black;
+  height: auto;
+}
+
+.filep {
+  color: black;
+  font-weight: 2px;
+  text-align: center;
+  position: relative;
+  top: 28%;
+}
+
+.filename {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 14%;
+  padding: 10px;
+}
+
+.iconArrow {
+  position: relative;
+  left: 80%;
+}
+
+.fileborder {
+  margin: 10px 10px 2px 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.iconupload {
+  color: black;
+  font-size: 35px;
+  position: relative;
+  left: 42%;
+}
+
+.blackWallHome {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+}
+.fondoHome {
+  background-color: rgb(206, 202, 202);
+}
+
+.personal-image {
+  text-align: center;
+  position: relative;
+  bottom: -5px;
+}
+.personal-image input[type="file"] {
+  display: none;
+}
+.personal-figure {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.personal-figure2 {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.personal-avatar {
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out 0.3s;
+}
+
+.personal-avatar3 {
+  cursor: pointer;
+
+  width: 100%;
+  height: 300px;
+}
+
+.heart {
+  position: relative;
+  bottom: 46%;
+  left: 60%;
+}
+
+.location {
+  position: relative;
+  bottom: -25px;
+  left: 32%;
+}
+
+.option1 {
+  color: white;
+}
+.option2 {
+  color: black;
+}
+
+.personal-avatar2 {
+  cursor: pointer;
+  width: 55px;
+  height: 45px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out 0.3s;
+}
+.personal-avatar:hover {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.personal-figcaption {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  width: inherit;
+  height: inherit;
+  border-radius: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all ease-in-out 0.3s;
+  width: 80px;
+  height: 80px;
+}
+.personal-figcaption:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.personal-figcaption > img {
+  position: relative;
+  top: 25px;
+  left: 23px;
+  width: 30px;
+  height: 30px;
+}
+
+.personal-figcaption2 {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  width: inherit;
+  height: inherit;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all ease-in-out 0.3s;
+  width: 100%;
+  height: 100%;
+}
+.personal-figcaption2:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.personal-figcaption2 > img {
+  position: relative;
+  top: 38%;
+  left: 45%;
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 600.98px) {
+  .personal-figcaption2 > img {
+    position: relative;
+    top: 34%;
+    left: 35%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .location {
+    position: relative;
+    bottom: -25px;
+    left: 0%;
+  }
+}

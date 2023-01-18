@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifications",
+  "info": {
+    "name": "Notifications",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Message": {
+      "type": "richtext"
+    },
+    "userTransmitter": {
+      "via": "notifications",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "userReceptor": {
+      "via": "notifications2",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "ad": {
+      "model": "ads",
+      "via": "notifications"
+    },
+    "isSeen": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
